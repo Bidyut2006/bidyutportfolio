@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f1f4f8">
+    <meta name="description" content="Contact Bidyut Das about graphic design projects and collaborations.">
+    <title>Contact | Bidyut Das</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body class="contact-page">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Bidyut Das home">
+        <span class="monogram" aria-hidden="true"><b>B</b><b>D</b></span>
+        <span class="brand-rule" aria-hidden="true"></span>
+        <span class="brand-name">
+          <strong>BIDYUT DAS</strong>
+          <small>Graphic Designer</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navigation" id="main-navigation" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skill</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a class="active" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+      <a class="top-cta" href="#contact-form">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21.5 3.5 2.8 10.7c-.9.4-.9 1.1-.1 1.4l4.8 1.5 1.8 5.5c.2.7.4.7.9.2l2.8-2.8 4.9 3.6c.7.4 1.1.2 1.3-.7L23 4.6c.3-1.1-.4-1.6-1.5-1.1ZM8.3 13.2l10.8-6.8-8.5 8-.3 3.1-2-4.3Z" />
+        </svg>
+        <span>Let's Work Together</span>
+      </a>
+    </header>
+
+    <main class="contact-main">
+      <section class="contact-hero" aria-labelledby="contact-title">
+        <nav class="social-rail contact-social-rail" aria-label="Social media">
+          <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noreferrer">f</a>
+          <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle class="dot" cx="18" cy="6" r="1" />
+            </svg>
+          </a>
+          <a class="behance" href="https://www.behance.net/" aria-label="Behance" target="_blank" rel="noreferrer">B&#275;</a>
+          <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M22 7.2a3 3 0 0 0-2.1-2.1C18 4.6 12 4.6 12 4.6s-6 0-7.9.5A3 3 0 0 0 2 7.2 31 31 0 0 0 1.5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM10 15.4V8.6l6 3.4-6 3.4Z" />
+            </svg>
+          </a>
+          <a class="linkedin" href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noreferrer">in</a>
+        </nav>
+
+        <div class="contact-copy">
+          <p class="contact-eyebrow">CONTACT ME <span aria-hidden="true"></span></p>
+          <h1 id="contact-title">Let's Work<br><em>Together</em></h1>
+          <p class="typing-line" aria-label="Available for brand identity, social media design, and print design">
+            <span class="typing-label">Available for</span>
+            <span class="typing-text" data-typing-phrases="Brand identity|Social media design|Print &amp; campaign design">Brand identity</span><span class="typing-cursor" aria-hidden="true"></span>
+          </p>
+          <p class="contact-intro">Have a project in mind, a question, or just want to say hello? I'd love to hear from you. Feel free to reach out; I'm always open to new ideas and exciting opportunities!</p>
+
+          <form class="contact-form" id="contact-form" action="mailto:bidyutdas98162@gmail.com" method="post" enctype="text/plain">
+            <div class="form-row">
+              <label class="form-field">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" /><path d="M4 21v-2a8 8 0 0 1 16 0v2H4Z" /></svg>
+                <span class="visually-hidden">Name</span>
+                <input name="name" type="text" autocomplete="name" placeholder="Name" required>
+              </label>
+              <label class="form-field">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="1" /><path d="m3 6 9 7 9-7" /></svg>
+                <span class="visually-hidden">Email</span>
+                <input name="email" type="email" autocomplete="email" placeholder="Email" required>
+              </label>
+            </div>
+
+            <label class="form-field subject-field">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M3 10h13M3 15h18M3 20h11" /></svg>
+              <span class="visually-hidden">Subject</span>
+              <select name="subject" required>
+                <option value="" disabled selected>Subject</option>
+                <option value="Brand identity">Brand identity</option>
+                <option value="Social media design">Social media design</option>
+                <option value="Poster or print design">Poster or print design</option>
+                <option value="Other project">Other project</option>
+              </select>
+              <svg class="select-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+            </label>
+
+            <label class="form-field message-field">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18v14H9l-6 4V4Z" /><path d="M7 9h10M7 13h7" /></svg>
+              <span class="visually-hidden">Message</span>
+              <textarea name="message" placeholder="Message" required></textarea>
+            </label>
+
+            <button class="send-button" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 3.5 2.8 10.7c-.9.4-.9 1.1-.1 1.4l4.8 1.5 1.8 5.5c.2.7.4.7.9.2l2.8-2.8 4.9 3.6c.7.4 1.1.2 1.3-.7L23 4.6c.3-1.1-.4-1.6-1.5-1.1ZM8.3 13.2l10.8-6.8-8.5 8-.3 3.1-2-4.3Z" /></svg>
+              <span>Send Message</span>
+            </button>
+            <p class="form-status" id="form-status" aria-live="polite">This form opens your email app to send the message.</p>
+          </form>
+        </div>
+
+        <div class="contact-details" aria-label="Contact details">
+          <a class="contact-card" href="mailto:bidyutdas98162@gmail.com">
+            <span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="5" y="10" width="38" height="28" rx="3" /><path d="m7 13 17 13 17-13" /></svg></span>
+            <span class="detail-copy"><strong>Email</strong><span>bidyutdas98162@gmail.com</span></span>
+          </a>
+
+          <a class="contact-card" href="tel:+917099807243">
+            <span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M14 6 8 9c-3 2 1 12 9 21s19 14 21 11l4-6-11-8-5 5c-4-2-8-6-10-10l4-5-6-11Z" /></svg></span>
+            <span class="detail-copy"><strong>Phone</strong><span>+91 70998 07243</span></span>
+          </a>
+
+          <div class="contact-card">
+            <span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M39 20c0 11-15 24-15 24S9 31 9 20a15 15 0 1 1 30 0Z" /><circle cx="24" cy="20" r="5" /></svg></span>
+            <span class="detail-copy"><strong>Location</strong><span>Guwahati, Assam, India</span></span>
+          </div>
+
+          <div class="follow-card">
+            <h2>Follow Me</h2>
+            <div class="follow-links">
+              <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noreferrer">f</a>
+              <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer"><span aria-hidden="true">◎</span></a>
+              <a href="https://www.behance.net/" aria-label="Behance" target="_blank" rel="noreferrer" class="behance">B&#275;</a>
+              <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noreferrer"><span aria-hidden="true">▶</span></a>
+              <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noreferrer" class="linkedin">in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-decoration" aria-hidden="true">
+          <span class="contact-shape"></span>
+          <span class="contact-dots contact-dots-top"></span>
+          <span class="contact-dots contact-dots-bottom"></span>
+          <span class="contact-lines"></span>
+        </div>
+
+        <div class="contact-note" aria-hidden="true">
+          <span>Have an idea?</span>
+          <span>Let's create it.</span>
+          <i></i>
+        </div>
+      </section>
+    </main>
+
+    <section class="send-confirmation" id="send-confirmation" aria-labelledby="send-confirmation-title" aria-hidden="true">
+      <div class="send-confirmation__backdrop" data-close-confirmation></div>
+      <div class="send-confirmation__card" role="dialog" aria-modal="true" aria-labelledby="send-confirmation-title" aria-describedby="send-confirmation-message" tabindex="-1">
+        <button class="send-confirmation__close" type="button" aria-label="Close confirmation" data-close-confirmation>&times;</button>
+        <span class="send-confirmation__check" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="m5 12 4.3 4.3L19 6.7" /></svg>
+        </span>
+        <p class="send-confirmation__eyebrow">MESSAGE READY</p>
+        <h2 id="send-confirmation-title">Thank you!</h2>
+        <p id="send-confirmation-message">Your email app has opened with your message ready to send. Please finish sending it there, and I'll get back to you soon.</p>
+        <button class="send-confirmation__button" type="button" data-close-confirmation>Continue browsing</button>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f1f4f8">
+    <meta name="description" content="Bidyut Das is a graphic designer creating clean, effective visuals for brands.">
+    <title>Bidyut Das | Graphic Designer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="site-header" id="home">
+      <a class="brand" href="#home" aria-label="Bidyut Das home">
+        <span class="monogram" aria-hidden="true"><b>B</b><b>D</b></span>
+        <span class="brand-rule" aria-hidden="true"></span>
+        <span class="brand-name">
+          <strong>BIDYUT DAS</strong>
+          <small>Graphic Designer</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navigation" id="main-navigation" aria-label="Main navigation">
+        <a class="active" href="#home" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skill</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+      <a class="top-cta" href="contact.html">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21.5 3.5 2.8 10.7c-.9.4-.9 1.1-.1 1.4l4.8 1.5 1.8 5.5c.2.7.4.7.9.2l2.8-2.8 4.9 3.6c.7.4 1.1.2 1.3-.7L23 4.6c.3-1.1-.4-1.6-1.5-1.1ZM8.3 13.2l10.8-6.8-8.5 8-.3 3.1-2-4.3Z" />
+        </svg>
+        <span>Let's Work Together</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true">
+          <span class="circle"></span>
+          <span class="slash slash-left"></span>
+          <span class="slash slash-right"></span>
+        </div>
+
+        <div class="portrait-wrap">
+          <img class="portrait" src="my-photo.png" alt="Bidyut Das, graphic designer">
+        </div>
+
+        <div class="intro">
+          <p class="eyebrow">HELLO, I'M <span aria-hidden="true"></span></p>
+          <h1 id="hero-title">BIDYUT<br><em>DAS</em></h1>
+          <p class="role">GRAPHIC DESIGNER</p>
+          <p class="summary">
+            I create simple, clean and effective designs
+            <br class="desktop-break">that help brands communicate their ideas
+            <br class="desktop-break">and grow.
+          </p>
+          <a class="work-button" href="portfolio.html">View My Work <span aria-hidden="true">&#10230;</span></a>
+        </div>
+
+        <div class="handwritten" aria-hidden="true">
+          <span>Design</span><span>Build</span><span>Grow</span><i></i>
+        </div>
+      </section>
+
+      <section class="services" id="skills" aria-label="What I offer">
+        <article class="service service-blue">
+          <div class="service-top">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M8 15h32a3 3 0 0 1 3 3v20H5V18a3 3 0 0 1 3-3Zm0 8 16 5 16-5M18 15V9h12v6m-9 9h6v7h-6z" /></svg>
+            </span>
+            <h2>Contact Details</h2>
+          </div>
+          <p>Working on real projects has helped me grow, improve my skills and explore new creative opportunities.</p>
+          <a href="contact.html">Learn More <span aria-hidden="true">&#8594;</span></a>
+        </article>
+
+        <article class="service service-green" id="portfolio">
+          <div class="service-top">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="m29 10 9 9-19 19-10 2 2-10L29 10Zm-3 4 9 9M7 42c6-1 10-4 12-9" /></svg>
+            </span>
+            <h2>What I Create</h2>
+          </div>
+          <p>From social media posts to branding, logos, posters and thumbnails, I design visuals that make an impact.</p>
+          <a href="#portfolio">Explore Services <span aria-hidden="true">&#8594;</span></a>
+        </article>
+
+        <article class="service service-purple" id="process">
+          <div class="service-top">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M20 5h8l1 5 4 2 4-2 5 6-3 4v5l3 4-5 6-5-2-4 2-1 5h-8l-1-5-4-2-4 2-5-6 3-4v-5l-3-4 5-6 5 2 4-2 1-5Z" /><circle cx="24" cy="23" r="8" /></svg>
+            </span>
+            <h2>My Process</h2>
+          </div>
+          <p>I follow a simple and organized workflow: understand, create, refine and deliver the best result.</p>
+          <a href="#process">See My Process <span aria-hidden="true">&#8594;</span></a>
+        </article>
+
+        <article class="service service-orange" id="contact">
+          <div class="service-top">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M7 12h34v25H7zM8 14l16 13 16-13M8 36l12-11m20 11L28 25" /></svg>
+            </span>
+            <h2>Get In Touch</h2>
+          </div>
+          <p>Have a project in mind, or just want to say hello? I'd love to hear from you.</p>
+          <a href="contact.html">Contact Me <span aria-hidden="true">&#8594;</span></a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
